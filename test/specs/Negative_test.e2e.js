@@ -1,23 +1,15 @@
+import mainPage from "../../pages/main.page.js";
+import loginPage from "../../pages/login.page.js";
+
 describe('Login', () => {
     it('Negative login test', async () => {
 
-        // main page
-        await browser.url(`http://localhost:3000/#/`);
-        await $('button.close-dialog').click()
-        await $('#navbarAccount').click()
-        await $('button[routerlink="/login"]').click()
+        await mainPage.open()
+        await mainPage.openAccountMenu()
+        await mainPage.navigateToLogin()
 
-        // login page
-        await $('#email').setValue('varyvoda.l.r@gmail.com');
-        await $('#password').setValue('21232288lilyy');
-        await $('button#loginButton').click()
+        await loginPage.login('.....', '........')
 
-        await browser.pause(10000)
-
-        // check if error message is displayed
-
-        const elem = $('.error')
-        await expect(elem).toBeDisplayed()
+        await expect(loginPage.errorMessage).toBeDisplayed()
     });
 });
-

@@ -1,11 +1,11 @@
 [ {
-  "uid" : "b6753991399f5e8d",
+  "uid" : "2e7ff36ac6dafe97",
   "name" : "Positive login test",
   "time" : {
-    "start" : 1639422977458,
-    "stop" : 1639422979112,
-    "duration" : 1654
+    "start" : 1639425850949,
+    "stop" : 1639425853821,
+    "duration" : 2872
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

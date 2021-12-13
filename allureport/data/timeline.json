@@ -1,10 +1,11 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
       "name" : "Positive login test",
-      "uid" : "b6753991399f5e8d",
+      "uid" : "32fefcab93b9b74",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -15,8 +16,46 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "firefox-95.0" ]
+    }, {
+      "name" : "Positive login test",
+      "uid" : "453cf745ab527e81",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639425736766,
+        "stop" : 1639425739313,
+        "duration" : 2547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0" ]
+    }, {
+      "name" : "Positive login test",
+      "uid" : "8500ae456f2824f9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639423179191,
+        "stop" : 1639423182275,
+        "duration" : 3084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0" ]
+    }, {
+      "name" : "Positive login test",
+      "uid" : "2e7ff36ac6dafe97",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639425850949,
+        "stop" : 1639425853821,
+        "duration" : 2872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ],
-  "name" : "timeline"
+  } ]
 }

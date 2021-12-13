@@ -1,0 +1,114 @@
+{
+  "uid" : "2e7ff36ac6dafe97",
+  "name" : "Positive login test",
+  "fullName" : "Login.Positive login test",
+  "historyId" : "ee1327d687fd0abfc4aa7d82bde5588d",
+  "time" : {
+    "start" : 1639425850949,
+    "stop" : 1639425853821,
+    "duration" : 2872
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging srart",
+      "time" : {
+        "start" : 1639425853005,
+        "stop" : 1639425853531,
+        "duration" : 526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "64fd1e05a99635b3",
+      "name" : "MyScreenshot",
+      "source" : "64fd1e05a99635b3.png",
+      "type" : "image/png",
+      "size" : 274939
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Positive login test"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "453cf745ab527e81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639425736766,
+        "stop" : 1639425739313,
+        "duration" : 2547
+      }
+    }, {
+      "uid" : "8500ae456f2824f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639423179191,
+        "stop" : 1639423182275,
+        "duration" : 3084
+      }
+    }, {
+      "uid" : "32fefcab93b9b74",
+      "status" : "broken",
+      "statusDetails" : "mainPage.navigateToLoginn is not a function",
+      "time" : {
+        "start" : 1639422977458,
+        "stop" : 1639422979112,
+        "duration" : 1654
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e7ff36ac6dafe97.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

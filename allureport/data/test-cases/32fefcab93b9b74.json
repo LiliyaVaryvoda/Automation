@@ -1,5 +1,5 @@
 {
-  "uid" : "b6753991399f5e8d",
+  "uid" : "32fefcab93b9b74",
   "name" : "Positive login test",
   "fullName" : "Login.Positive login test",
   "historyId" : "ee1327d687fd0abfc4aa7d82bde5588d",
@@ -47,18 +47,12 @@
     "value" : "firefox-95.0"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b6753991399f5e8d.json",
+  "source" : "32fefcab93b9b74.json",
   "parameterValues" : [ "firefox-95.0" ]
 }

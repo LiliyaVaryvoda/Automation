@@ -10,18 +10,22 @@ class LoginPage extends BasePage {
     get loginBtn(){
     return $('button#loginButton')
 }
+
+get errorMessage(){
+    return $('.error')
+}
+
 async open(){
     await super.open(`http://localhost:3000/#/login`);
 }
 
 async login(email, pass){
-    await allure.startStep('Logging srart')
+    await allure.startStep('Logging start')
     await this.emailInput.setValue(email)
     await this.passwordInput.setValue(pass)
     await this.loginBtn.click()
     await allure.endStep('passed')
 }
-
 }
 
 

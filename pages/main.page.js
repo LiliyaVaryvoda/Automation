@@ -25,13 +25,6 @@ async open(){
 }
 
 
-    // async open(){
-    //     allure.addStep("Navigating to registration")
-    //     await super.open('http://localhost:3000/#/register');
-    //     if (await this.closePopupBtn.isExisting())
-    //     await this.closePopupBtn.click()
-    // }
-
 async openAccountMenu(){
     await this.accountMenuBtn.click()
 
@@ -40,13 +33,6 @@ async openAccountMenu(){
     async navigateToLogin(){
         await this.loginBtn.click()
     }
-
-
-    //registation page
-
-// async selectQuestion(text){
-//     await questionDropDown.select(text)
-// }
 }
 
 

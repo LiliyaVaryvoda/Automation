@@ -2,20 +2,19 @@
   "ee1327d687fd0abfc4aa7d82bde5588d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b6753991399f5e8d",
-      "status" : "broken",
-      "statusDetails" : "mainPage.navigateToLoginn is not a function",
+      "uid" : "2e7ff36ac6dafe97",
+      "status" : "passed",
       "time" : {
-        "start" : 1639422977458,
-        "stop" : 1639422979112,
-        "duration" : 1654
+        "start" : 1639425850949,
+        "stop" : 1639425853821,
+        "duration" : 2872
       }
     } ]
   }

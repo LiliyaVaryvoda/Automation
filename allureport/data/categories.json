@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "mainPage.navigateToLoginn is not a function",
-      "children" : [ {
-        "name" : "Positive login test",
-        "uid" : "b6753991399f5e8d",
-        "parentUid" : "86d978d107cfd8ce579d03d9ed2bb3c6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639422977458,
-          "stop" : 1639422979112,
-          "duration" : 1654
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "firefox-95.0" ]
-      } ],
-      "uid" : "86d978d107cfd8ce579d03d9ed2bb3c6"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ ]
 }
