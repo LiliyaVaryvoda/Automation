@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639422977458' stop='1639422979113'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1639422977458' status='broken' stop='1639422979112'>
+            <name>Positive login test</name>
+            <title>Positive login test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>mainPage.navigateToLoginn is not a function</message>
+                <stack-trace>TypeError: mainPage.navigateToLoginn is not a function
+                    at Context.&lt;anonymous> (file:///D:/EL2/test/specs/Positive_test.2e2.js:9:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,3 +1,5 @@
+let allureReporter = require("@wdio/allure-reporter").default
+
 exports.config = {
     //
     // ====================
@@ -21,8 +23,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js'
-        './test/specs/**/Positive_test.2e2.js'
+        './test/specs/Positive_test.2e2.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -44,7 +45,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -135,7 +136,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
 
 
     
@@ -191,6 +196,7 @@ exports.config = {
      */
     before: function (capabilities, specs) {
         console.log('TEST IS STARTED!');
+        global.allure = allureReporter
     },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -232,8 +238,16 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+     afterTest: function (
+        test,
+        context,
+        { error, result, duration, passed, retries }
+      ) {
+        // take a screenshot anytime a test fails and throws an error
+        if (error) {
+          browser.takeScreenshot(); 
+        }
+      },
 
 
     /**

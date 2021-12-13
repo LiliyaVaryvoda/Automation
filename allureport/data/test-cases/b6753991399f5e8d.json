@@ -1,0 +1,64 @@
+{
+  "uid" : "b6753991399f5e8d",
+  "name" : "Positive login test",
+  "fullName" : "Login.Positive login test",
+  "historyId" : "ee1327d687fd0abfc4aa7d82bde5588d",
+  "time" : {
+    "start" : 1639422977458,
+    "stop" : 1639422979112,
+    "duration" : 1654
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "mainPage.navigateToLoginn is not a function",
+  "statusTrace" : "TypeError: mainPage.navigateToLoginn is not a function\n                    at Context.<anonymous> (file:///D:/EL2/test/specs/Positive_test.2e2.js:9:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Positive login test"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b6753991399f5e8d.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

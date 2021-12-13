@@ -1,4 +1,5 @@
-class LoginPage {
+import BasePage from "../base/basePage.js";
+class LoginPage extends BasePage {
 
     get emailInput(){
         return $('#email')
@@ -10,13 +11,15 @@ class LoginPage {
     return $('button#loginButton')
 }
 async open(){
-    await browser.url(`http://localhost:3000/#/login`);
+    await super.open(`http://localhost:3000/#/login`);
 }
 
 async login(email, pass){
+    await allure.startStep('Logging srart')
     await this.emailInput.setValue(email)
     await this.passwordInput.setValue(pass)
     await this.loginBtn.click()
+    await allure.endStep('passed')
 }
 
 }

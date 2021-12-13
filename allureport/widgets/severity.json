@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b6753991399f5e8d",
+  "name" : "Positive login test",
+  "time" : {
+    "start" : 1639422977458,
+    "stop" : 1639422979112,
+    "duration" : 1654
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

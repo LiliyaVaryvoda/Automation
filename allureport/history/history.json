@@ -1,0 +1,22 @@
+{
+  "ee1327d687fd0abfc4aa7d82bde5588d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6753991399f5e8d",
+      "status" : "broken",
+      "statusDetails" : "mainPage.navigateToLoginn is not a function",
+      "time" : {
+        "start" : 1639422977458,
+        "stop" : 1639422979112,
+        "duration" : 1654
+      }
+    } ]
+  }
+}

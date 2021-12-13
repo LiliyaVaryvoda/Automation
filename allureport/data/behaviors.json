@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Positive login test",
+    "uid" : "b6753991399f5e8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1639422977458,
+      "stop" : 1639422979112,
+      "duration" : 1654
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-95.0" ]
+  } ],
+  "name" : "behaviors"
+}
