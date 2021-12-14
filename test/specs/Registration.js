@@ -8,6 +8,8 @@ describe("Registration", () => {
         await registrationPage.open();
         await browser.pause(10000);
         await registrationPage.selectQuestion("Mother's maiden name?");
+        await registrationPage.registration('2@2.com', '11111', '11111', '1')
+        await registrationPage.registerBtn.click()
         await browser.pause(10000);
 
     })

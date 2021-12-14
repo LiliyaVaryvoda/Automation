@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639506188888' stop='1639506195493'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1639506188888' status='broken' stop='1639506195482'>
+            <name>Negative login test</name>
+            <title>Negative login test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='041b1d21-106c-42f0-a93b-cc001aa70cb9-attachment.png' type='image/png' size='34445'/>
+            </attachments>
+            <failure>
+                <message>this.closePopupBtn.click is not a function</message>
+                <stack-trace>TypeError: this.closePopupBtn.click is not a function
+                    at MainPage.open (file:///D:/EL2/pages/main.page.js:24:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/Negative_test.e2e.js:7:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

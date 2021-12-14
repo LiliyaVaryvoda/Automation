@@ -8,7 +8,11 @@ describe('Login', () => {
         await mainPage.openAccountMenu()
         await mainPage.navigateToLogin()
 
-        await loginPage.login('test1@test.com', 'pass123')
+        await loginPage.login('1@1.com', '11111')
+
+        await mainPage.accountMenuBtn.click()
+
+        await expect(mainPage.logoutBtn).toBeDisplayed()
     });
 });
 

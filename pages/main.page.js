@@ -1,3 +1,4 @@
+import $ from "webdriverio/build/commands/browser/$";
 import BasePage from "../base/basePage.js";
 import Button from "../elements/button.js"
 import Dropdown from "../elements/dropdown.js";
@@ -7,6 +8,10 @@ class MainPage extends BasePage{
 get accountMenuBtn(){
     //return new Button($('#navbarAccount'), "Account Menu")
     return $('#navbarAccount')
+}
+
+get logoutBtn(){
+    return $('#navbarLogoutButton')
 }
 
 get loginBtn(){
