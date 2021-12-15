@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639566866010' stop='1639566898425'>
+    <name>Registration</name>
+    <title>Registration</title>
+    <test-cases>
+        <test-case start='1639566866011' status='broken' stop='1639566898421'>
+            <name>Registration</name>
+            <title>Registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='2c252568-cb75-4bda-ae43-5e0fe3f01ed4-attachment.png' type='image/png' size='54967'/>
+            </attachments>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at D:\EL2\node_modules\@wdio\utils\build\shim.js:247:38
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/Registration.js:15:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

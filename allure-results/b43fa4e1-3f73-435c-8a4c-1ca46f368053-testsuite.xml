@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639568764388' stop='1639568776682'>
+    <name>Registration</name>
+    <title>Registration</title>
+    <test-cases>
+        <test-case start='1639568764389' status='broken' stop='1639568776673'>
+            <name>Registration</name>
+            <title>Registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='34d05605-ba44-4a73-be67-625f8dc1cd6d-attachment.png' type='image/png' size='55943'/>
+            </attachments>
+            <failure>
+                <message>(intermediate value).click is not a function</message>
+                <stack-trace>TypeError: (intermediate value).click is not a function
+                    at Dropdown.select (file:///D:/EL2/elements/dropdown.js:10:107)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async UserRegistration.fillRegistrationForm (file:///D:/EL2/pages/userRegistration.page.js:81:5)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/Registration.js:20:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

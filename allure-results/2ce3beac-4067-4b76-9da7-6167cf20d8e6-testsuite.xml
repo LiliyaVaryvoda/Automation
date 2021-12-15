@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639565333724' stop='1639565356014'>
+    <name>Registration</name>
+    <title>Registration</title>
+    <test-cases>
+        <test-case start='1639565333724' status='broken' stop='1639565356008'>
+            <name>Registration</name>
+            <title>Registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='90bf1824-3305-4aa2-bc21-23eaa2e82d55-attachment.png' type='image/png' size='55087'/>
+            </attachments>
+            <failure>
+                <message>contains is not defined</message>
+                <stack-trace>ReferenceError: contains is not defined
+                    at UserRegistration.sss (file:///D:/EL2/pages/userRegistration.page.js:90:16)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/Registration.js:14:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

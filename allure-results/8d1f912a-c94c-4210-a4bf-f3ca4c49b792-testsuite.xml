@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639564575354' stop='1639564587236'>
+    <name>Registration</name>
+    <title>Registration</title>
+    <test-cases>
+        <test-case start='1639564575355' status='broken' stop='1639564587235'>
+            <name>Registration</name>
+            <title>Registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='8c75a601-ef67-4951-9068-cb7c5808023d-attachment.png' type='image/png' size='49910'/>
+            </attachments>
+            <failure>
+                <message>fillRegistrationForm is not defined</message>
+                <stack-trace>ReferenceError: fillRegistrationForm is not defined
+                    at Context.&lt;anonymous> (file:///D:/EL2/test/specs/Registration.js:11:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
