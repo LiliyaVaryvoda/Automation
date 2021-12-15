@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639510459333' stop='1639510470879'>
+    <name>Registration</name>
+    <title>Registration</title>
+    <test-cases>
+        <test-case start='1639510459334' status='broken' stop='1639510470875'>
+            <name>Registration</name>
+            <title>Registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='2514c807-055b-4044-87eb-abecdf8ee2f7-attachment.png' type='image/png' size='49956'/>
+            </attachments>
+            <failure>
+                <message>this.questionDropDown.click is not a function</message>
+                <stack-trace>TypeError: this.questionDropDown.click is not a function
+                    at RegistrationPage.selectQuestion (file:///D:/EL2/pages/registration.page.js:53:33)
+                    at Context.&lt;anonymous> (file:///D:/EL2/test/specs/Registration.js:10:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

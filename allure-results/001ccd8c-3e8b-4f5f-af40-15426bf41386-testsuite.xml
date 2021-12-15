@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639512352790' stop='1639512364991'>
+    <name>Registration</name>
+    <title>Registration</title>
+    <test-cases>
+        <test-case start='1639512352792' status='broken' stop='1639512364990'>
+            <name>Registration</name>
+            <title>Registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='MyScreenshot' source='bd82a7e3-2eb3-4d9b-a7a6-6f8e17d1ff38-attachment.png' type='image/png' size='54577'/>
+            </attachments>
+            <failure>
+                <message>Button.click is not a constructor</message>
+                <stack-trace>TypeError: Button.click is not a constructor
+                    at Dropdown.select (file:///D:/EL2/elements/dropdown.js:13:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async RegistrationPage.selectQuestion (file:///D:/EL2/pages/registration.page.js:53:5)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/Registration.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

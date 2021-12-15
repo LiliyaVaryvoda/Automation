@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639518476992' stop='1639518490855'>
+    <name>About us</name>
+    <title>About us</title>
+    <test-cases>
+        <test-case start='1639518476993' status='broken' stop='1639518490854'>
+            <name>About us</name>
+            <title>About us</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps>
+                <step start='1639518478473' status='passed' stop='1639518479093'>
+                    <name>Logging start</name>
+                    <title>Logging start</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='MyScreenshot' source='d2482e07-cf84-4306-bafb-b7ef630e196d-attachment.png' type='image/png' size='883459'/>
+            </attachments>
+            <failure>
+                <message>Element &lt;button class="mat-focus-indicator mat-raised-button mat-button-base mat-accent"> is not clickable at point (263,577) because another element &lt;div class="mat-drawer-backdrop ng-star-inserted"> obscures it</message>
+                <stack-trace>WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5
+                ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.jsm:280:5
+                webdriverClickElement@chrome://remote/content/marionette/interaction.js:166:11
+                interaction.clickElement@chrome://remote/content/marionette/interaction.js:125:11
+                clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:200:24
+                receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:91:31
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

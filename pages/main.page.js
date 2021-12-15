@@ -1,4 +1,4 @@
-import $ from "webdriverio/build/commands/browser/$";
+
 import BasePage from "../base/basePage.js";
 import Button from "../elements/button.js"
 import Dropdown from "../elements/dropdown.js";

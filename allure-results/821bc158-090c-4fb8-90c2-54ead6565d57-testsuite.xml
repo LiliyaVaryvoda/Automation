@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639517475741' stop='1639517485874'>
+    <name>About us</name>
+    <title>About us</title>
+    <test-cases>
+        <test-case start='1639517475742' status='broken' stop='1639517485874'>
+            <name>About us</name>
+            <title>About us</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps>
+                <step start='1639517475744' status='broken' stop='1639517485873'>
+                    <name>Logging start</name>
+                    <title>Logging start</title>
+                    <attachments>
+                        <attachment title='MyScreenshot' source='fadb5793-8e37-48fd-b95a-1b65346b7535-attachment.png' type='image/png' size='8765'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call setValue on element with selector "#email" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "#email" because element wasn't found
+                    at implicitWait (D:\EL2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (D:\EL2\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (D:\EL2\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async LoginPage.login (file:///D:/EL2/pages/login.page.js:24:5)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/About_us_test.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

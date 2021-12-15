@@ -7,10 +7,9 @@ export default class Dropdown extends BaseElement {
         await this.wdioElement.click();
 }
 
-    async select(option) {
-        await this.open();
-        await new Button($(`//*[@class="mat-option-text"][contains(text(), "${option}")]`), `Question "${option}"`).click();
-
-    }
+async select(option) {
+    await this.open();
+    await new Button($(`//*[@class="mat-option-text"][contains(text(), "${option}")]`),"Question option").click();
+  }
 }
 

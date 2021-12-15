@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639518096084' stop='1639518113488'>
+    <name>About us</name>
+    <title>About us</title>
+    <test-cases>
+        <test-case start='1639518096085' status='broken' stop='1639518113487'>
+            <name>About us</name>
+            <title>About us</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps>
+                <step start='1639518097540' status='passed' stop='1639518098228'>
+                    <name>Logging start</name>
+                    <title>Logging start</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='MyScreenshot' source='95a44428-98b5-42db-953e-be1d9d9d4140-attachment.png' type='image/png' size='274034'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#Open Sidenav" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#Open Sidenav" because element wasn't found
+                    at implicitWait (D:\EL2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (D:\EL2\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (D:\EL2\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/About_us_test.js:16:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
