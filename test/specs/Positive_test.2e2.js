@@ -1,5 +1,6 @@
 import mainPage from "../../pages/main.page.js";
 import loginPage from "../../pages/login.page.js";
+import editUserPage from "../../pages/editUser.page.js";
 
 describe('Login', () => {
     it('Positive login test', async () => {
@@ -13,6 +14,7 @@ describe('Login', () => {
         await mainPage.accountMenuBtn.click()
 
         await expect(mainPage.logoutBtn).toBeDisplayed()
+    
     });
 });
 

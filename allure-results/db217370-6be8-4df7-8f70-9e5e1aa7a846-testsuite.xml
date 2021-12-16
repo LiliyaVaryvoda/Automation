@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639581574381' stop='1639581608984'>
+    <name>Edit profile</name>
+    <title>Edit profile</title>
+    <test-cases>
+        <test-case start='1639581574381' status='failed' stop='1639581608983'>
+            <name>should change user name</name>
+            <title>should change user name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps>
+                <step start='1639581576512' status='passed' stop='1639581577050'>
+                    <name>Logging start</name>
+                    <title>Logging start</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='MyScreenshot' source='3ae74aec-8a41-4739-ba5b-d98d39eac481-attachment.png' type='image/png' size='257790'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//div[@class="img-rounded"]`) not to have property src
+                
+                Expected [not]: "default"
+                Received      : undefined</message>
+                <stack-trace>Error: Expect $(`//div[@class="img-rounded"]`) not to have property src
+                
+                Expected [not]: "default"
+                Received      : undefined
+                    at Context.&lt;anonymous> (file:///D:/EL2/test/specs/editUser.js:27:51)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639579802992' stop='1639579837936'>
+    <name>Edit profile</name>
+    <title>Edit profile</title>
+    <test-cases>
+        <test-case start='1639579802992' status='broken' stop='1639579837935'>
+            <name>should change user name</name>
+            <title>should change user name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-95.0'/>
+            </parameters>
+            <steps>
+                <step start='1639579805563' status='passed' stop='1639579806193'>
+                    <name>Logging start</name>
+                    <title>Logging start</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='MyScreenshot' source='c5310889-7b8d-44a6-816f-8130c4b9e330-attachment.png' type='image/png' size='37233'/>
+            </attachments>
+            <failure>
+                <message>Can't call setValue on element with selector "//input[name = "imageUrl"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//input[name = "imageUrl"]" because element wasn't found
+                    at implicitWait (D:\EL2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (D:\EL2\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (D:\EL2\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async editUser.imageUrlclick (file:///D:/EL2/pages/editUser.page.js:36:9)
+                    at async Context.&lt;anonymous> (file:///D:/EL2/test/specs/editUser.js:25:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
